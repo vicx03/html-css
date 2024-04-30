@@ -1,0 +1,15 @@
+modelo de caixas
+
+anatomia
+
+height = altura
+width = largura
+border = borda
+padding = espaço da borda
+margin = margem
+outline = contorno ou traçado
+
+tipod de caixa
+
+box-level <div> quebra a linha
+inline-level  <span> não quebra linha
