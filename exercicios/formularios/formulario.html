@@ -8,7 +8,10 @@
 <body>
     <h1>Trabalhando com Formularios</h1>
 
-    <form action="">
+    <form >
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" nome="email"> <br> <br>
+
         <label for="pnome">Primeiro nome</label>
         <input type="text" id="pnome" nome="pnome" placeholder="Seu primeiro nome" required>
 
@@ -42,9 +45,32 @@
             <option value="">Educação basica</option>
             <option value="">Ensino medio</option>
             <option value="">Ensino superior</option>
-        </select>
+        </select> <br> <br>
+        
+        <label for="">
+            <strong>Seleciobe as tecnologias que você conhece</strong>
+        </label> <br> <br>
 
-        <br> <br> 
+        <input type="checkbox" id="tec1" nome="tec1" value="HTML">
+        <label for="tec1">HTML</label>
+
+        <input type="checkbox" id="tec2" nome="tec2" value="CSS">
+        <label for="tec2">CSS</label>
+
+        <input type="checkbox" id="tec3" nome="tec3" value="JavaScript">
+        <label for="tec3">JavaScript</label> 
+        
+        <input type="checkbox" id="tec4" nome="tec4" value="PHP">
+        <label for="tec4">PHP</label> <br> <br> 
+
+        <!--
+            tipo Date
+            type="datetime-local" data e horario.
+            type="data" apenas data.
+        -->
+        <label for="nascimento">Data nascimento</label>
+        <input type="datetime-local" name="nascimento" id="nascimento">
+        
         <input type="submit" value="Cadastrar">
     </form>
 </body>
